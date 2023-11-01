@@ -1,7 +1,8 @@
 <script lang="ts">
 	export let key: string;
 	export let selected_answer: string;
-	let baseClassList: string = ' rounded-xl text-center border transition-all';
+	export let disabled: boolean;
+	let baseClassList: string = ' rounded-xl text-center border transition-all p-4';
 	let inactiveClasses: string =
 		' dark:text-gray-400 dark:bg-slate-600 bg-slate-300 border-transparent';
 	let activeClasses: string =
@@ -13,14 +14,16 @@
 		classList = baseClassList + inactiveClasses;
 	}
 	function selectAnswer() {
-		selected_answer = key;
+		if (!disabled) {
+			selected_answer = key;
+		}
 	}
 </script>
 
-<option on:click={selectAnswer} class={classList} value={key}><slot /></option>
+<option {disabled} on:click={selectAnswer} class={classList} value={key}><slot /></option>
 
 <style>
-	option:hover {
+	option:hover:not(:disabled) {
 		cursor: pointer;
 	}
 </style>

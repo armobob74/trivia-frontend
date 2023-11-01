@@ -24,16 +24,37 @@
 	};
 	let selected_answer: string = '';
 	let option_keys: Array<string> = Object.keys(question.options);
+	let submitted: boolean = false;
+	function handleSubmit() {
+		if (selected_answer) {
+			submitted = true;
+		} else {
+		}
+	}
 </script>
 
 <div class="bg-transparent w-screen h-screen p-6">
-	<div class="bg-slate-200 dark:bg-slate-800 flex flex-col p-8 rounded-xl h-full">
-		<h1 class="h3 text-center">{question.Q}</h1>
-		<form action="/" method="get">
-			{#each option_keys as key}
-				<Option {key} bind:selected_answer>{question.options[key]}</Option>
-			{/each}
-			<button type="submit" class="btn variant-filled">Submit</button>
+	<div
+		class="bg-slate-200 dark:bg-slate-800 flex flex-col p-8 rounded-xl h-full items-center justify-evenly"
+	>
+		<form
+			class="h-full w-full lg:w-6/12 flex flex-col items-center justify-evenly"
+			on:submit={handleSubmit}
+			method="get"
+		>
+			<h1 class="h3 text-center">{question.Q}</h1>
+			<div class="w-full h-4/6 lg:h-full flex flex-col justify-evenly">
+				{#each option_keys as key}
+					<Option disabled={submitted} {key} bind:selected_answer>{question.options[key]}</Option>
+				{/each}
+			</div>
+			<button disabled={submitted} type="submit" class="btn variant-filled">
+				{#if submitted}
+					Submitted
+				{:else}
+					Submit
+				{/if}
+			</button>
 		</form>
 	</div>
 </div>
