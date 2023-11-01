@@ -28,7 +28,4 @@
 	button:hover:not(:disabled) {
 		cursor: pointer;
 	}
-	button {
-		white-space: normal;
-	}
 </style>
