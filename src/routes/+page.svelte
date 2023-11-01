@@ -1,6 +1,5 @@
-<script>
-	//import Link from '$lib/Link.svelte';
-	let game_id = '';
+<script lang="ts">
+	let game_id: string = '';
 </script>
 
 <a class="btn absolute top-1 right-1" href={`/create-game/`}>Create Game</a>
@@ -17,6 +16,6 @@
 				bind:value={game_id}
 			/>
 		</div>
-		<a class="btn variant-filled" href={`/game/${game_id}`}>Join Game</a>
+		<a class="btn variant-filled" href={`/game/`}>Join Game</a>
 	</form>
 </div>
