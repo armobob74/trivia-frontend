@@ -20,10 +20,15 @@
 	}
 </script>
 
-<option {disabled} on:click={selectAnswer} class={classList} value={key}><slot /></option>
+<button type="button" {disabled} on:click={selectAnswer} class={classList} value={key}
+	><slot /></button
+>
 
 <style>
-	option:hover:not(:disabled) {
+	button:hover:not(:disabled) {
 		cursor: pointer;
+	}
+	button {
+		white-space: normal;
 	}
 </style>
