@@ -1,0 +1,344 @@
+[
+  {
+    "text": "Andrew Jackson was the first U.S.president to enjoy what at the White House?",
+    "A": "Electric Lighting",
+    "B": "Indoor Plumbing",
+    "C": "Handwoven Carpets",
+    "D": "Running Water",
+    "correct": "B",
+    "difficulty": 7
+  },
+  {
+    "text": "What zodiac sign features a creature that defends itself with an aculeus?",
+    "A": "Scorpio",
+    "B": "Virgo",
+    "C": "Taurus",
+    "D": "DiCaprio",
+    "correct": "C",
+    "difficulty": 6
+  },
+  {
+    "text": "U.S. air traffic controllers refer to the plane the Pope travels on by what official call sign?",
+    "A": "Shepherd One",
+    "B": "Vatican One",
+    "C": "Holy One",
+    "D": "Celestial Voyager",
+    "correct": "A",
+    "difficulty": 5
+  },
+  {
+    "text": "What popular corn chip loosely translates to “little golden things” in Spanish?",
+    "A": "Fritos",
+    "B": "Takis",
+    "C": "Doritos",
+    "D": "Tostitos",
+    "correct": "C",
+    "difficulty": 4
+  },
+  {
+    "text": "In 2017, what did Twitter do to its 140-character limit on tweets?",
+    "A": "Double it",
+    "B": "Triple it",
+    "C": "Enforce it",
+    "D": "Remove it",
+    "correct": "A",
+    "difficulty": 3
+  },
+  {
+    "text": "On a compass, what does the letter N typically stand for?",
+    "A": "N/A",
+    "B": "North",
+    "C": "Navigator",
+    "D": "Needle",
+    "correct": "B",
+    "difficulty": 2
+  },
+  {
+    "text": "A spork is a utensil that combines what two things?",
+    "A": "Knife + fork",
+    "B": "Spoon + knife",
+    "C": "Spoon + fork",
+    "D": "Salad fork + dinner fork",
+    "correct": "C",
+    "difficulty": 1
+  },
+  {
+    "text": "What costume was worn by the original lead singer of the Village People?",
+    "A": "Cowboy",
+    "B": "Policeman",
+    "C": "G.I.",
+    "D": "Builder",
+    "correct": "B",
+    "difficulty": 12
+  },
+  {
+    "text": "Which statement is NOT true about photosynthesis and chemosynthesis?",
+    "A": "Both powered by sunlight",
+    "B": "Both are processes that are used to sustain life",
+    "C": "Both involve production of organic compounds",
+    "D": "Both play important roles in nutrient cycling",
+    "correct": "A",
+    "difficulty": 11
+  },
+  {
+    "text": "In what medium was Superman’s Kryptonite weakness introduced?",
+    "A": "Radio",
+    "B": "Television",
+    "C": "Comic Books",
+    "D": "Film",
+    "correct": "A",
+    "difficulty": 10
+  },
+  {
+    "text": "Which has been the last name of a U.S. president AND a British prime minister?",
+    "A": "Grant",
+    "B": "Washington",
+    "C": "Wilson",
+    "D": "Churchill",
+    "correct": "C",
+    "difficulty": 8
+  },
+  {
+    "text": "A high-tech store with no cashiers recently opened in Seattle under what name?",
+    "A": "Amazon Go",
+    "B": "ScanSmart Supermart",
+    "C": "SelfServe Seattle",
+    "D": "Cashless Convenience",
+    "correct": "A",
+    "difficulty": 4
+  },
+  {
+    "text": "Which of these is an actual Winter Olympics event?",
+    "A": "Skeleton",
+    "B": "Frostfire",
+    "C": "Dodgeball",
+    "D": "Snowflop",
+    "correct": "A",
+    "difficulty": 3
+  },
+  {
+    "text": "What’s the anatomical name for the center of a hurricane?",
+    "A": "Head",
+    "B": "Tail",
+    "C": "Eye",
+    "D": "Heart",
+    "correct": "C",
+    "difficulty": 2
+  },
+  {
+    "text": "Tic-tac-toe is typically played by writing what two symbols?",
+    "A": "1 and 0",
+    "B": "! and ?",
+    "C": "X and O",
+    "D": "C and O",
+    "correct": "C",
+    "difficulty": 1
+  },
+  {
+    "text": "In the 1800s, a chemistry student making synthetic quinine accidentally created what color of dye?",
+    "A": "Mauve",
+    "B": "Fuchsia",
+    "C": "Forest Green",
+    "D": "Turquoise",
+    "correct": "A",
+    "difficulty": 11
+  },
+  {
+    "text": "Which of these is Venus visibly lacking in Botticelli's “Birth of Venus”?",
+    "A": "Belly Button",
+    "B": "Nipples",
+    "C": "Body hair",
+    "D": "Eyes",
+    "correct": "C",
+    "difficulty": 7
+  },
+  {
+    "text": "What event inspired Aerosmith’s “Dude (Looks Like a Lady)”?",
+    "A": "Steven Tyler looks like a lady.",
+    "B": "Steven Tyler drunkenly put on makeup and a dress, trying to fool heavy metal vocalist Vince Neil into dating him.",
+    "C": "Steven Tyler spotted a lady at a bar who turned out to be heavy metal vocalist Vince Neil.",
+    "D": "Steven Tyler used ChatGPT.",
+    "correct": "C",
+    "difficulty": 5
+  },
+  {
+    "text": "Which food is traditionally a main ingredient in mock turtle soup?",
+    "A": "Calf brains",
+    "B": "Beer",
+    "C": "Sheep Liver",
+    "D": "Deer Tongue",
+    "correct": "A",
+    "difficulty": 6
+  },
+  {
+    "text": "Famous director Francis Ford Coppola holds a US patent for a t-shirt that does what?",
+    "A": "Contains anti-microbial cellulose triacetate fibers extracted from recycled film reels.",
+    "B": "Displays a grid on the back, allowing the wearer to easily identify what part of their back itches",
+    "C": "Is dyed with red wine, causing any wine spills to be invisible.",
+    "D": "Attaches the sleeves with velcro, allowing them to be removed if desired.",
+    "correct": "B",
+    "difficulty": 7
+  },
+  {
+    "text": "Which tool is typically used to clear a clogged pipe?",
+    "A": "Wrench",
+    "B": "Snake",
+    "C": "Gopher",
+    "D": "Accelerometer",
+    "correct": "B",
+    "difficulty": 3
+  },
+  {
+    "text": "Which country is part of North America?",
+    "A": "Mali",
+    "B": "Canada",
+    "C": "Japan",
+    "D": "Ecuador",
+    "correct": "B",
+    "difficulty": 2
+  },
+  {
+    "text": "New Mexico exempts which group of people from paying state income taxes?",
+    "A": "Homeowners",
+    "B": "Centenarians",
+    "C": "Veterans",
+    "D": "Teachers",
+    "correct": "B",
+    "difficulty": 8
+  },
+  {
+    "text": "The college degree “B.A.” is short for what?",
+    "A": "Bachelor of Arts",
+    "B": "Bachelor of Academics",
+    "C": "Brightest of America",
+    "D": "Best Artist",
+    "correct": "A",
+    "difficulty": 1
+  },
+  {
+    "text": "In 1973, Arabella and Anita became the first members of what species to go into space?",
+    "A": "Spider",
+    "B": "Dog",
+    "C": "Human",
+    "D": "Pig",
+    "correct": "A",
+    "difficulty": 6
+  },
+  {
+    "text": "What did Yankee Doodle stick in his cap?",
+    "A": "Feather",
+    "B": "Spaghetti",
+    "C": "Pencil",
+    "D": "Ribbon",
+    "correct": "A",
+    "difficulty": 1
+  },
+  {
+    "text": "What word completes the phrase: “Everything but the kitchen”?",
+    "A": "Sink",
+    "B": "Door",
+    "C": "Countertop",
+    "D": "Remodel",
+    "correct": "A",
+    "difficulty": 2
+  },
+  {
+    "text": "What was the first theatrical feature film to be completely computer-animated?",
+    "A": "Shrek",
+    "B": "Monsters Inc.",
+    "C": "Toy Story",
+    "D": "Antz",
+    "correct": "C",
+    "difficulty": 3
+  },
+  {
+    "text": "Traditionally, an “amuse-bouche” arrives right before what part of the meal?",
+    "A": "Appetizers",
+    "B": "Dessert",
+    "C": "Drinks",
+    "D": "Entree",
+    "correct": "A",
+    "difficulty": 4
+  },
+  {
+    "text": "In the game of Candy Land, which player goes first?",
+    "A": "The youngest",
+    "B": "The oldest",
+    "C": "Determined by rock-paper-scissors",
+    "D": "Determined by dice-roll",
+    "correct": "A",
+    "difficulty": 5
+  },
+  {
+    "text": "In the popular comic strip, what color is Hagar the Horrible’s beard?",
+    "A": "Black",
+    "B": "Brown",
+    "C": "Red",
+    "D": "Blonde",
+    "correct": "C",
+    "difficulty": 6
+  },
+  {
+    "text": "What spice comes from the crocus flower?",
+    "A": "Cumin",
+    "B": "Star anise",
+    "C": "Saffron",
+    "D": "Clove",
+    "correct": "C",
+    "difficulty": 7
+  },
+  {
+    "text": "What was the first product to have its barcode scanned at purchase?",
+    "A": "Marlboro Cigarettes",
+    "B": "Wrigley's chewing gum",
+    "C": "Apple Lisa",
+    "D": "Tropicana Orange Juice",
+    "correct": "B",
+    "difficulty": 11
+  },
+  {
+    "text": "Parmesan cheese is named for an Italian province called what?",
+    "A": "Pisa",
+    "B": "Arizona",
+    "C": "Parma",
+    "D": "Rome",
+    "correct": "C",
+    "difficulty": 1
+  },
+  {
+    "text": "Which of these famous fictional animals is a ruminant?",
+    "A": "Bambi",
+    "B": "Dumbo",
+    "C": "Simba",
+    "D": "Mushu",
+    "correct": "A",
+    "difficulty": 2
+  },
+  {
+    "text": "Which popular root beer brand typically contains caffeine?",
+    "A": "Barq’s",
+    "B": "Mug",
+    "C": "A&W",
+    "D": "Virgil's",
+    "correct": "A",
+    "difficulty": 3
+  },
+  {
+    "text": "Which of these words would earn you the highest score in Scrabble?",
+    "A": "Oxygen",
+    "B": "Spaghetti",
+    "C": "Onions",
+    "D": "Responsible",
+    "correct": "A",
+    "difficulty": 4
+  },
+  {
+    "text": "What is the correct spelling of the Pennsylvania town famous for its groundhog?",
+    "A": "Phunxatuny",
+    "B": "Punksatony",
+    "C": "Punxsutawney",
+    "D": "Philadelphia",
+    "correct": "C",
+    "difficulty": 5
+  }
+]

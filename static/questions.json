@@ -1,0 +1,1487 @@
+[
+  {
+    "text": "Andrew Jackson was the first U.S.president to enjoy what at the White House?",
+    "A": "Electric Lighting",
+    "B": "Indoor Plumbing",
+    "C": "Handwoven Carpets",
+    "D": "Running Water",
+    "correct": "B",
+    "difficulty": 7
+  },
+  {
+    "text": "What zodiac sign features a creature that defends itself with an aculeus?",
+    "A": "Scorpio",
+    "B": "Virgo",
+    "C": "Taurus",
+    "D": "DiCaprio",
+    "correct": "C",
+    "difficulty": 6
+  },
+  {
+    "text": "U.S. air traffic controllers refer to the plane the Pope travels on by what official call sign?",
+    "A": "Shepherd One",
+    "B": "Vatican One",
+    "C": "Holy One",
+    "D": "Celestial Voyager",
+    "correct": "A",
+    "difficulty": 5
+  },
+  {
+    "text": "What popular corn chip loosely translates to “little golden things” in Spanish?",
+    "A": "Fritos",
+    "B": "Takis",
+    "C": "Doritos",
+    "D": "Tostitos",
+    "correct": "C",
+    "difficulty": 4
+  },
+  {
+    "text": "In 2017, what did Twitter do to its 140-character limit on tweets?",
+    "A": "Double it",
+    "B": "Triple it",
+    "C": "Enforce it",
+    "D": "Remove it",
+    "correct": "A",
+    "difficulty": 3
+  },
+  {
+    "text": "On a compass, what does the letter N typically stand for?",
+    "A": "N/A",
+    "B": "North",
+    "C": "Navigator",
+    "D": "Needle",
+    "correct": "B",
+    "difficulty": 2
+  },
+  {
+    "text": "A spork is a utensil that combines what two things?",
+    "A": "Knife + fork",
+    "B": "Spoon + knife",
+    "C": "Spoon + fork",
+    "D": "Salad fork + dinner fork",
+    "correct": "C",
+    "difficulty": 1
+  },
+  {
+    "text": "What costume was worn by the original lead singer of the Village People?",
+    "A": "Cowboy",
+    "B": "Policeman",
+    "C": "G.I.",
+    "D": "Builder",
+    "correct": "B",
+    "difficulty": 12
+  },
+  {
+    "text": "Which statement is NOT true about photosynthesis and chemosynthesis?",
+    "A": "Both powered by sunlight",
+    "B": "Both are processes that are used to sustain life",
+    "C": "Both involve production of organic compounds",
+    "D": "Both play important roles in nutrient cycling",
+    "correct": "A",
+    "difficulty": 11
+  },
+  {
+    "text": "In what medium was Superman’s Kryptonite weakness introduced?",
+    "A": "Radio",
+    "B": "Television",
+    "C": "Comic Books",
+    "D": "Film",
+    "correct": "A",
+    "difficulty": 10
+  },
+  {
+    "text": "Which has been the last name of a U.S. president AND a British prime minister?",
+    "A": "Grant",
+    "B": "Washington",
+    "C": "Wilson",
+    "D": "Churchill",
+    "correct": "C",
+    "difficulty": 8
+  },
+  {
+    "text": "A high-tech store with no cashiers recently opened in Seattle under what name?",
+    "A": "Amazon Go",
+    "B": "ScanSmart Supermart",
+    "C": "SelfServe Seattle",
+    "D": "Cashless Convenience",
+    "correct": "A",
+    "difficulty": 4
+  },
+  {
+    "text": "Which of these is an actual Winter Olympics event?",
+    "A": "Skeleton",
+    "B": "Frostfire",
+    "C": "Dodgeball",
+    "D": "Snowflop",
+    "correct": "A",
+    "difficulty": 3
+  },
+  {
+    "text": "What’s the anatomical name for the center of a hurricane?",
+    "A": "Head",
+    "B": "Tail",
+    "C": "Eye",
+    "D": "Heart",
+    "correct": "C",
+    "difficulty": 2
+  },
+  {
+    "text": "Tic-tac-toe is typically played by writing what two symbols?",
+    "A": "1 and 0",
+    "B": "! and ?",
+    "C": "X and O",
+    "D": "C and O",
+    "correct": "C",
+    "difficulty": 1
+  },
+  {
+    "text": "In the 1800s, a chemistry student making synthetic quinine accidentally created what color of dye?",
+    "A": "Mauve",
+    "B": "Fuchsia",
+    "C": "Forest Green",
+    "D": "Turquoise",
+    "correct": "A",
+    "difficulty": 11
+  },
+  {
+    "text": "Which of these is Venus visibly lacking in Botticelli's “Birth of Venus”?",
+    "A": "Belly Button",
+    "B": "Nipples",
+    "C": "Body hair",
+    "D": "Eyes",
+    "correct": "C",
+    "difficulty": 7
+  },
+  {
+    "text": "What event inspired Aerosmith’s “Dude (Looks Like a Lady)”?",
+    "A": "Steven Tyler looks like a lady.",
+    "B": "Steven Tyler drunkenly put on makeup and a dress, trying to fool heavy metal vocalist Vince Neil into dating him.",
+    "C": "Steven Tyler spotted a lady at a bar who turned out to be heavy metal vocalist Vince Neil.",
+    "D": "Steven Tyler used ChatGPT.",
+    "correct": "C",
+    "difficulty": 5
+  },
+  {
+    "text": "Which food is traditionally a main ingredient in mock turtle soup?",
+    "A": "Calf brains",
+    "B": "Beer",
+    "C": "Sheep Liver",
+    "D": "Deer Tongue",
+    "correct": "A",
+    "difficulty": 6
+  },
+  {
+    "text": "Famous director Francis Ford Coppola holds a US patent for a t-shirt that does what?",
+    "A": "Contains anti-microbial cellulose triacetate fibers extracted from recycled film reels.",
+    "B": "Displays a grid on the back, allowing the wearer to easily identify what part of their back itches",
+    "C": "Is dyed with red wine, causing any wine spills to be invisible.",
+    "D": "Attaches the sleeves with velcro, allowing them to be removed if desired.",
+    "correct": "B",
+    "difficulty": 7
+  },
+  {
+    "text": "Which tool is typically used to clear a clogged pipe?",
+    "A": "Wrench",
+    "B": "Snake",
+    "C": "Gopher",
+    "D": "Accelerometer",
+    "correct": "B",
+    "difficulty": 3
+  },
+  {
+    "text": "Which country is part of North America?",
+    "A": "Mali",
+    "B": "Canada",
+    "C": "Japan",
+    "D": "Ecuador",
+    "correct": "B",
+    "difficulty": 2
+  },
+  {
+    "text": "New Mexico exempts which group of people from paying state income taxes?",
+    "A": "Homeowners",
+    "B": "Centenarians",
+    "C": "Veterans",
+    "D": "Teachers",
+    "correct": "B",
+    "difficulty": 8
+  },
+  {
+    "text": "The college degree “B.A.” is short for what?",
+    "A": "Bachelor of Arts",
+    "B": "Bachelor of Academics",
+    "C": "Brightest of America",
+    "D": "Best Artist",
+    "correct": "A",
+    "difficulty": 1
+  },
+  {
+    "text": "In 1973, Arabella and Anita became the first members of what species to go into space?",
+    "A": "Spider",
+    "B": "Dog",
+    "C": "Human",
+    "D": "Pig",
+    "correct": "A",
+    "difficulty": 6
+  },
+  {
+    "text": "What did Yankee Doodle stick in his cap?",
+    "A": "Feather",
+    "B": "Spaghetti",
+    "C": "Pencil",
+    "D": "Ribbon",
+    "correct": "A",
+    "difficulty": 1
+  },
+  {
+    "text": "What word completes the phrase: “Everything but the kitchen”?",
+    "A": "Sink",
+    "B": "Door",
+    "C": "Countertop",
+    "D": "Remodel",
+    "correct": "A",
+    "difficulty": 2
+  },
+  {
+    "text": "What was the first theatrical feature film to be completely computer-animated?",
+    "A": "Shrek",
+    "B": "Monsters Inc.",
+    "C": "Toy Story",
+    "D": "Antz",
+    "correct": "C",
+    "difficulty": 3
+  },
+  {
+    "text": "Traditionally, an “amuse-bouche” arrives right before what part of the meal?",
+    "A": "Appetizers",
+    "B": "Dessert",
+    "C": "Drinks",
+    "D": "Entree",
+    "correct": "A",
+    "difficulty": 4
+  },
+  {
+    "text": "In the game of Candy Land, which player goes first?",
+    "A": "The youngest",
+    "B": "The oldest",
+    "C": "Determined by rock-paper-scissors",
+    "D": "Determined by dice-roll",
+    "correct": "A",
+    "difficulty": 5
+  },
+  {
+    "text": "In the popular comic strip, what color is Hagar the Horrible’s beard?",
+    "A": "Black",
+    "B": "Brown",
+    "C": "Red",
+    "D": "Blonde",
+    "correct": "C",
+    "difficulty": 6
+  },
+  {
+    "text": "What spice comes from the crocus flower?",
+    "A": "Cumin",
+    "B": "Star anise",
+    "C": "Saffron",
+    "D": "Clove",
+    "correct": "C",
+    "difficulty": 7
+  },
+  {
+    "text": "What was the first product to have its barcode scanned at purchase?",
+    "A": "Marlboro Cigarettes",
+    "B": "Wrigley's chewing gum",
+    "C": "Apple Lisa",
+    "D": "Tropicana Orange Juice",
+    "correct": "B",
+    "difficulty": 11
+  },
+  {
+    "text": "Parmesan cheese is named for an Italian province called what?",
+    "A": "Pisa",
+    "B": "Arizona",
+    "C": "Parma",
+    "D": "Rome",
+    "correct": "C",
+    "difficulty": 1
+  },
+  {
+    "text": "Which of these famous fictional animals is a ruminant?",
+    "A": "Bambi",
+    "B": "Dumbo",
+    "C": "Simba",
+    "D": "Mushu",
+    "correct": "A",
+    "difficulty": 2
+  },
+  {
+    "text": "Which popular root beer brand typically contains caffeine?",
+    "A": "Barq’s",
+    "B": "Mug",
+    "C": "A&W",
+    "D": "Virgil's",
+    "correct": "A",
+    "difficulty": 3
+  },
+  {
+    "text": "Which of these words would earn you the highest score in Scrabble?",
+    "A": "Oxygen",
+    "B": "Spaghetti",
+    "C": "Onions",
+    "D": "Responsible",
+    "correct": "A",
+    "difficulty": 4
+  },
+  {
+    "text": "What is the correct spelling of the Pennsylvania town famous for its groundhog?",
+    "A": "Phunxatuny",
+    "B": "Punksatony",
+    "C": "Punxsutawney",
+    "D": "Philadelphia",
+    "correct": "C",
+    "difficulty": 5
+  },
+ {
+  "text": "The lunar module for the Apollo 10 moon mission was nicknamed what?",
+  "A": "Charlie Brown",
+  "B": "Lucy",
+  "C": "Snoopy",
+  "D": "Woodstock",
+  "correct": "C",
+  "difficulty": 9
+ },
+ {
+  "text": "Which public radio program is hosted by the cousin of a multiple Oscar-nominated composer?",
+  "A": "This American Life",
+  "B": "Fresh Air",
+  "C": "Radiolab",
+  "D": "The Moth",
+  "correct": "A",
+  "difficulty": 10
+ },
+ {
+  "text": "After Prince Edward Island, what is Canada’s most densely populated province?",
+  "A": "Quebec",
+  "B": "Ontario",
+  "C": "Nova Scotia",
+  "D": "British Columbia",
+  "correct": "C",
+  "difficulty": 11
+ },
+ {
+  "text": "What is a common remedy for dehydration?",
+  "A": "Drinking water",
+  "B": "Eating salty foods",
+  "C": "Drinking soda",
+  "D": "Taking a nap",
+  "correct": "A",
+  "difficulty": 1
+ },
+ {
+  "text": "The band that recorded “September” is named “Earth, Wind &” what?",
+  "A": "Rain",
+  "B": "Fire",
+  "C": "Ice",
+  "D": "Air",
+  "correct": "B",
+  "difficulty": 2
+ },
+ {
+  "text": "In the classic fairy tale, who is Little Red Riding Hood's enemy?",
+  "A": "Wicked Witch",
+  "B": "Evil Stepmother",
+  "C": "Big Bad Wolf",
+  "D": "Greedy Giant",
+  "correct": "C",
+  "difficulty": 1
+ },
+ {
+  "text": "Pantene Pro-V and Garnier Fructis are popular types of what?",
+  "A": "Toothpaste",
+  "B": "Shampoo",
+  "C": "Lotion",
+  "D": "Makeup",
+  "correct": "B",
+  "difficulty": 2
+ },
+ {
+  "text": "A bed that folds up into the wall is commonly known as what?",
+  "A": "Foldable bed",
+  "B": "Cabinet bed",
+  "C": "Murphy bed",
+  "D": "Wall bed",
+  "correct": "C",
+  "difficulty": 3
+ },
+ {
+  "text": "Which of these colleges does NOT have a physical location?",
+  "A": "Electoral College",
+  "B": "Harvard University",
+  "C": "Stanford University",
+  "D": "Yale University",
+  "correct": "A",
+  "difficulty": 4
+ },
+ {
+  "text": "Which of these desserts is often made with ladyfingers?",
+  "A": "Tiramisu",
+  "B": "Cheesecake",
+  "C": "Brownie",
+  "D": "Gelato",
+  "correct": "A",
+  "difficulty": 5
+ },
+ {
+  "text": "Which of these is a real illness that affects rabbits?",
+  "A": "Hop-limp",
+  "B": "Bunny blues",
+  "C": "Snuffles",
+  "D": "Rabbit fever",
+  "correct": "C",
+  "difficulty": 6
+ },
+ {
+  "text": "The Doors are named after a famous essay by the author of what iconic novel?",
+  "A": "The Catcher in the Rye",
+  "B": "To Kill a Mockingbird",
+  "C": "Brave New World",
+  "D": "Moby-Dick",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "Which TV news host once wrote about his first date with Monica Lewinsky?",
+  "A": "Jake Tapper",
+  "B": "Chris Cuomo",
+  "C": "Tucker Carlson",
+  "D": "Sean Hannity",
+  "correct": "A",
+  "difficulty": 8
+ },
+ {
+  "text": "The famous German phrase “Sturm und Drang” comes from what?",
+  "A": "Opera",
+  "B": "Novel",
+  "C": "Play",
+  "D": "Poem",
+  "correct": "C",
+  "difficulty": 9
+ },
+ {
+  "text": "In which African country is English NOT the official language?",
+  "A": "South Africa",
+  "B": "Nigeria",
+  "C": "Chad",
+  "D": "Ghana",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "Which ’90s movie is an anagram of the original book title which the film is based on?",
+  "A": "Jurassic Park",
+  "B": "October Sky",
+  "C": "Silence of the Lambs",
+  "D": "The Shawshank Redemption",
+  "correct": "B",
+  "difficulty": 11
+ },
+ {
+  "text": "Which legendary music producer is closely related to former President Jimmy Carter?",
+  "A": "Quincy Jones",
+  "B": "Rick Rubin",
+  "C": "Berry Gordy",
+  "D": "Phil Spector",
+  "correct": "C",
+  "difficulty": 12
+ },
+ {
+  "text": "Which of these websites is an online database for movies, television and video games?",
+  "A": "Wikipedia",
+  "B": "IMDb",
+  "C": "Rotten Tomatoes",
+  "D": "Metacritic",
+  "correct": "B",
+  "difficulty": 1
+ },
+ {
+  "text": "What does bicameral mean?",
+  "A": "Twice yearly",
+  "B": "Two colors",
+  "C": "Two chambers",
+  "D": "Two faces",
+  "correct": "C",
+  "difficulty": 2
+ },
+ {
+  "text": "Which ’90s movie is an anagram of the original book title which the film is based on?",
+  "A": "Sky Rocket",
+  "B": "October Sky",
+  "C": "Rocket Boys",
+  "D": "Bryce Look",
+  "correct": "B",
+  "difficulty": 11
+ },
+ {
+  "text": "A galleon is an old-fashioned type of what?",
+  "A": "Ship",
+  "B": "Wagon",
+  "C": "Weapon",
+  "D": "Instrument",
+  "correct": "A",
+  "difficulty": 3
+ },
+ {
+  "text": "What male singing voice type is higher than a bass, but lower than a tenor?",
+  "A": "Baritone",
+  "B": "Contralto",
+  "C": "Falsetto",
+  "D": "Alto",
+  "correct": "A",
+  "difficulty": 4
+ },
+ {
+  "text": "Which of these is NOT a real berry?",
+  "A": "Gooseberry",
+  "B": "Iceberry",
+  "C": "Raspberry",
+  "D": "Strawberry",
+  "correct": "B",
+  "difficulty": 5
+ },
+ {
+  "text": "George Washington Carver is famous for his scientific work on what subject?",
+  "A": "Soil depletion",
+  "B": "Light bulb",
+  "C": "DNA structure",
+  "D": "Steam engine",
+  "correct": "A",
+  "difficulty": 6
+ },
+ {
+  "text": "Which of these is NOT believed to be a function of the uvula?",
+  "A": "Taste",
+  "B": "Speech",
+  "C": "Swallowing",
+  "D": "Preventing snoring",
+  "correct": "A",
+  "difficulty": 7
+ },
+ {
+  "text": "Which of these baseball legends was a first-ballot Hall of Famer?",
+  "A": "Babe Ruth",
+  "B": "Lou Gehrig",
+  "C": "Mickey Mantle",
+  "D": "Jackie Robinson",
+  "correct": "C",
+  "difficulty": 8
+ },
+ {
+  "text": "Which of these things can be mathematically described as an oblate spheroid?",
+  "A": "A football",
+  "B": "An egg",
+  "C": "Planet Earth",
+  "D": "A basketball",
+  "correct": "C",
+  "difficulty": 9
+ },
+ {
+  "text": "“Fro-yo” is short for what?",
+  "A": "Frontal Yoga",
+  "B": "Frozen yogurt",
+  "C": "Frosty Yoghurt",
+  "D": "Frothy orange",
+  "correct": "B",
+  "difficulty": 1
+ },
+ {
+  "text": "In Shakespeare's play “Julius Caesar,” what phrase does the titular character say to Brutus?",
+  "A": "Et tu, Brute?",
+  "B": "To be or not to be?",
+  "C": "All the world's a stage",
+  "D": "Parting is such sweet sorrow",
+  "correct": "A",
+  "difficulty": 2
+ },
+ {
+  "text": "Which ‘90s movie is an anagram of the original book title which the film is based on?",
+  "A": "Sky Rocket Hub",
+  "B": "October Sky",
+  "C": "Keto Cyborgs",
+  "D": "Rocket Hobby",
+  "correct": "B",
+  "difficulty": 11
+ },
+ {
+  "text": "What is the name of a Japanese art form that features trees grown in containers?",
+  "A": "Anime",
+  "B": "Bonsai",
+  "C": "Origami",
+  "D": "Ikebana",
+  "correct": "B",
+  "difficulty": 3
+ },
+ {
+  "text": "What college football team’s chant is also likely to be heard on a farm?",
+  "A": "Arkansas Razorbacks",
+  "B": "Texas Longhorns",
+  "C": "Georgia Bulldogs",
+  "D": "Florida Gators",
+  "correct": "A",
+  "difficulty": 4
+ },
+ {
+  "text": "What legendary “Buffalo Bill’s Wild West” star had a negative-sounding nickname?",
+  "A": "Willie Hickok",
+  "B": "Buffalo Bill",
+  "C": "Martha Jane Cannary",
+  "D": "Belle Starr",
+  "correct": "C",
+  "difficulty": 5
+ },
+ {
+  "text": "Where did Bernese Mountain Dogs originate?",
+  "A": "Austria",
+  "B": "Switzerland",
+  "C": "Germany",
+  "D": "France",
+  "correct": "B",
+  "difficulty": 6
+ },
+ {
+  "text": "Which fashion designer is grandmother to a literal princess?",
+  "A": "Diane von Fürstenberg",
+  "B": "Vera Wang",
+  "C": "Coco Chanel",
+  "D": "Donatella Versace",
+  "correct": "A",
+  "difficulty": 7
+ },
+ {
+  "text": "Which film features the same kind of talking animal as the Old Testament book Numbers?",
+  "A": "Narnia",
+  "B": "Madagascar",
+  "C": "Shrek",
+  "D": "Jungle Book",
+  "correct": "C",
+  "difficulty": 8
+ },
+ {
+  "text": "In which country is GeoCities still up and running?",
+  "A": "United States",
+  "B": "Japan",
+  "C": "Canada",
+  "D": "India",
+  "correct": "B",
+  "difficulty": 10
+ },
+ {
+  "text": "Before the lyrics are sung, how many finger snaps are heard in the “Addams Family” theme song?",
+  "A": "12 snaps",
+  "B": "8 snaps",
+  "C": "10 snaps",
+  "D": "6 snaps",
+  "correct": "A",
+  "difficulty": 11
+ },
+ {
+  "text": "Which of these is the name of a princess in Disney's “Frozen”?",
+  "A": "Aurora",
+  "B": "Belle",
+  "C": "Elsa",
+  "D": "Moana",
+  "correct": "C",
+  "difficulty": 1
+ },
+ {
+  "text": "The Olympic logo features what combination of shapes?",
+  "A": "Six stars",
+  "B": "Five rings",
+  "C": "Three torches",
+  "D": "Four globes",
+  "correct": "B",
+  "difficulty": 2
+ },
+ {
+  "text": "The Italian cooking term “al dente” means what?",
+  "A": "Firm",
+  "B": "Soft",
+  "C": "Burned",
+  "D": "Chopped",
+  "correct": "A",
+  "difficulty": 3
+ },
+ {
+  "text": "Which of these companies offers a “freemium” service?",
+  "A": "Spotify",
+  "B": "Microsoft Office",
+  "C": "Adobe Photoshop",
+  "D": "Apple Music",
+  "correct": "A",
+  "difficulty": 4
+ },
+ {
+  "text": "What word does Nestlé use to describe their Toll House chocolate chips?",
+  "A": "Morsels",
+  "B": "Chunks",
+  "C": "Bites",
+  "D": "Nibs",
+  "correct": "A",
+  "difficulty": 5
+ },
+ {
+  "text": "Which of these countries legally guarantees its citizens “freedom to roam”?",
+  "A": "Canada",
+  "B": "Sweden",
+  "C": "USA",
+  "D": "Australia",
+  "correct": "B",
+  "difficulty": 6
+ },
+ {
+  "text": "Bill Cunningham was a key influence in what style of photography?",
+  "A": "Portrait",
+  "B": "Landscape",
+  "C": "Street style",
+  "D": "Macro",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "“INTJ” is a personality type based on a hypothesis by which psychiatrist?",
+  "A": "Sigmund Freud",
+  "B": "Carl Jung",
+  "C": "Erik Erikson",
+  "D": "B.F. Skinner",
+  "correct": "B",
+  "difficulty": 8
+ },
+ {
+  "text": "Which of these activists is the subject of a song by John Lennon and Yoko Ono?",
+  "A": "Angela Davis",
+  "B": "Rosa Parks",
+  "C": "Martin Luther King Jr.",
+  "D": "Malcolm X",
+  "correct": "A",
+  "difficulty": 9
+ },
+ {
+  "text": "The U.S. flag bearer for the 2018 Olympics is a medalist in what event?",
+  "A": "Skiing",
+  "B": "Speed Skating",
+  "C": "Luge",
+  "D": "Snowboarding",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "Which of these people was born with the same name as a famous ketchup?",
+  "A": "John Mustard",
+  "B": "Tommy Tomato",
+  "C": "Henry Kissinger",
+  "D": "Jimmy Mayo",
+  "correct": "C",
+  "difficulty": 11
+ },
+ {
+  "text": "What form of energy do batteries provide?",
+  "A": "Solar",
+  "B": "Kinetic",
+  "C": "Electrical",
+  "D": "Nuclear",
+  "correct": "C",
+  "difficulty": 1
+ },
+ {
+  "text": "Which “Rose” was the lead singer of Guns N' Roses?",
+  "A": "Rose Tyler",
+  "B": "Rose Dawson",
+  "C": "Axl",
+  "D": "Rose Byrne",
+  "correct": "C",
+  "difficulty": 2
+ },
+ {
+  "text": "In a best-selling Little Golden Book, who was “The Monster at The End of This Book”?",
+  "A": "Sesame Street's Grover",
+  "B": "Elmo",
+  "C": "Big Bird",
+  "D": "Cookie Monster",
+  "correct": "A",
+  "difficulty": 3
+ },
+ {
+  "text": "“Embarazada” is the Spanish word for what?",
+  "A": "Embarrassed",
+  "B": "Pregnant",
+  "C": "Engaged",
+  "D": "Excited",
+  "correct": "B",
+  "difficulty": 4
+ },
+ {
+  "text": "Which American car manufacturer first introduced seat belts?",
+  "A": "Ford",
+  "B": "Chevrolet",
+  "C": "Nash",
+  "D": "Chrysler",
+  "correct": "C",
+  "difficulty": 5
+ },
+ {
+  "text": "Which of these authors has NOT written a comic book about Black Panther?",
+  "A": "Ta-Nehisi Coates",
+  "B": "Christopher Priest",
+  "C": "Cornel West",
+  "D": "Reginald Hudlin",
+  "correct": "C",
+  "difficulty": 6
+ },
+ {
+  "text": "Last year, Microsoft angered customers by announcing it would eliminate what Windows software?",
+  "A": "Word",
+  "B": "Excel",
+  "C": "Paint",
+  "D": "PowerPoint",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "A 1984 Devo album has the same name as a massive 1984 single by what band?",
+  "A": "The Police",
+  "B": "Wham!",
+  "C": "Tears for Fears",
+  "D": "Duran Duran",
+  "correct": "C",
+  "difficulty": 8
+ },
+ {
+  "text": "Police tell arrestees they have the right to remain silent thanks to a Supreme Court ruling against what U.S. state",
+  "A": "California",
+  "B": "Texas",
+  "C": "New York",
+  "D": "Arizona",
+  "correct": "D",
+  "difficulty": 9
+ },
+ {
+  "text": "In da Vinci’s “Last Supper,” which disciple is depicted holding a weapon?",
+  "A": "Peter",
+  "B": "John",
+  "C": "Matthew",
+  "D": "James",
+  "correct": "A",
+  "difficulty": 10
+ },
+ {
+  "text": "Which term is shorthand for a useful item when changing a flat tire?",
+  "A": "Wrench",
+  "B": "Spare",
+  "C": "Jack",
+  "D": "Lug",
+  "correct": "B",
+  "difficulty": 1
+ },
+ {
+  "text": "Tonga's 2016 Olympic flag bearer became a global viral sensation for dressing how?",
+  "A": "Oiled up & shirtless",
+  "B": "In a traditional robe",
+  "C": "Wearing neon colors",
+  "D": "With a large headdress",
+  "correct": "A",
+  "difficulty": 2
+ },
+ {
+  "text": "What Olympic legend was the subject of a song in an Oscar-nominated 1999 film?",
+  "A": "Brian Boitano",
+  "B": "Michael Phelps",
+  "C": "Usain Bolt",
+  "D": "Nadia Comăneci",
+  "correct": "A",
+  "difficulty": 3
+ },
+ {
+  "text": "Which of these items would be measured on the Scoville scale?",
+  "A": "Habanero",
+  "B": "Sugar",
+  "C": "Lemon",
+  "D": "Salt",
+  "correct": "A",
+  "difficulty": 4
+ },
+ {
+  "text": "Which of these iconic African-American leaders was NOT born into slavery?",
+  "A": "W.E.B. Du Bois",
+  "B": "Frederick Douglass",
+  "C": "Harriet Tubman",
+  "D": "Sojourner Truth",
+  "correct": "A",
+  "difficulty": 5
+ },
+ {
+  "text": "A cat with what fur pattern is almost always female?",
+  "A": "Calico",
+  "B": "Tabby",
+  "C": "Siamese",
+  "D": "Maine Coon",
+  "correct": "A",
+  "difficulty": 6
+ },
+ {
+  "text": "Which nation does NOT have a two-word capital city?",
+  "A": "Brunei",
+  "B": "Costa Rica",
+  "C": "New Zealand",
+  "D": "South Africa",
+  "correct": "A",
+  "difficulty": 7
+ },
+ {
+  "text": "In 2014, an excavation at a New Mexican landfill uncovered what?",
+  "A": "Ancient Native American artifacts",
+  "B": "A stash of illegal substances",
+  "C": "Buried Atari game cartridges",
+  "D": "Dinosaur fossils",
+  "correct": "C",
+  "difficulty": 8
+ },
+ {
+  "text": "The athlete who has competed in the most Olympic games hails from which country?",
+  "A": "Canada",
+  "B": "USA",
+  "C": "Germany",
+  "D": "Russia",
+  "correct": "A",
+  "difficulty": 9
+ },
+ {
+  "text": "Which of these fonts was NOT created by Microsoft?",
+  "A": "Arial",
+  "B": "Verdana",
+  "C": "Papyrus",
+  "D": "Calibri",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "In the first known use of “mammoth” as an adjective, what item was it describing?",
+  "A": "Hunk of cheese",
+  "B": "Mountain",
+  "C": "Tree",
+  "D": "Statue",
+  "correct": "A",
+  "difficulty": 11
+ },
+ {
+  "text": "Which of these countries has a lower gross domestic product than any U.S. state?",
+  "A": "Canada",
+  "B": "Norway",
+  "C": "Iceland",
+  "D": "Japan",
+  "correct": "C",
+  "difficulty": 12
+ },
+ {
+  "text": "Which of these Olympians is most likely to perform a lutz, axel or toe loop jump?",
+  "A": "Michael Phelps",
+  "B": "Usain Bolt",
+  "C": "Kristi Yamaguchi",
+  "D": "Serena Williams",
+  "correct": "C",
+  "difficulty": 1
+ },
+ {
+  "text": "From what country did the American colonies win their independence?",
+  "A": "France",
+  "B": "Spain",
+  "C": "Great Britain",
+  "D": "Portugal",
+  "correct": "C",
+  "difficulty": 2
+ },
+ {
+  "text": "Which of these animals is NOT native to Australia?",
+  "A": "Capybara",
+  "B": "Kangaroo",
+  "C": "Koala",
+  "D": "Wallaby",
+  "correct": "A",
+  "difficulty": 3
+ },
+ {
+  "text": "Which congressman participated in the Selma to Montgomery marches of 1965?",
+  "A": "Mitch McConnell",
+  "B": "John Lewis",
+  "C": "Barney Frank",
+  "D": "Paul Ryan",
+  "correct": "B",
+  "difficulty": 4
+ },
+ {
+  "text": "The Ark of the Covenant supposedly contains what religious artifact?",
+  "A": "The Ten Commandments",
+  "B": "The Holy Grail",
+  "C": "Moses' Staff",
+  "D": "Piece of the Cross",
+  "correct": "A",
+  "difficulty": 5
+ },
+ {
+  "text": "Which of these actors is incapable of making a fist with his left hand?",
+  "A": "Tom Hanks",
+  "B": "Morgan Freeman",
+  "C": "Leonardo DiCaprio",
+  "D": "Brad Pitt",
+  "correct": "B",
+  "difficulty": 6
+ },
+ {
+  "text": "Which of these is NOT a term used in Olympic curling?",
+  "A": "Hog Line",
+  "B": "Stone",
+  "C": "Chunked stone",
+  "D": "House",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "The “Cha-Cha Slide” includes a dance move named after what cartoon character?",
+  "A": "Mickey Mouse",
+  "B": "Bugs Bunny",
+  "C": "Charlie Brown",
+  "D": "Daffy Duck",
+  "correct": "C",
+  "difficulty": 8
+ },
+ {
+  "text": "Portuguese is an official language of which country?",
+  "A": "Equatorial Guinea",
+  "B": "Nigeria",
+  "C": "Morocco",
+  "D": "Kenya",
+  "correct": "A",
+  "difficulty": 9
+ },
+ {
+  "text": "Among U.S. astronauts, what distinction does Sally Ride have?",
+  "A": "Youngest to go to space",
+  "B": "First woman in space",
+  "C": "Oldest to go to space",
+  "D": "Most spacewalks",
+  "correct": "A",
+  "difficulty": 10
+ },
+ {
+  "text": "Which chemical compound would you NOT use to create red and blue fireworks?",
+  "A": "Sodium nitrate",
+  "B": "Strontium carbonate",
+  "C": "Copper chloride",
+  "D": "Potassium nitrate",
+  "correct": "A",
+  "difficulty": 11
+ },
+ {
+  "text": "King Louis XIV’s Palace of Versailles contained over 150 pieces of furniture made entirely of what?",
+  "A": "Silver",
+  "B": "Gold",
+  "C": "Bronze",
+  "D": "Copper",
+  "correct": "A",
+  "difficulty": 12
+ },
+ {
+  "text": "Which of the following is NOT used to describe someone from that particular state?",
+  "A": "Wisconsinian",
+  "B": "Californian",
+  "C": "Texan",
+  "D": "Floridian",
+  "correct": "A",
+  "difficulty": 1
+ },
+ {
+  "text": "Lonnie Johnson accidentally created the Supersoaker while trying to build what?",
+  "A": "Heat pump",
+  "B": "Wind turbine",
+  "C": "Solar panel",
+  "D": "Battery",
+  "correct": "A",
+  "difficulty": 2
+ },
+ {
+  "text": "In gardening, what word refers to overall health and usability of soil?",
+  "A": "Compost",
+  "B": "Tilth",
+  "C": "Loam",
+  "D": "Fertility",
+  "correct": "B",
+  "difficulty": 3
+ },
+ {
+  "text": "Which type of musical composition is also an Olympic figure skating jump?",
+  "A": "Concerto",
+  "B": "Sonata",
+  "C": "Mazurka",
+  "D": "Ballad",
+  "correct": "C",
+  "difficulty": 4
+ },
+ {
+  "text": "Low-income college students may qualify for a federal grant program named for a senator from what state?",
+  "A": "Kentucky",
+  "B": "Rhode Island",
+  "C": "Mississippi",
+  "D": "Pennsylvania",
+  "correct": "B",
+  "difficulty": 5
+ },
+ {
+  "text": "The westernmost region of Russia touches which of these countries?",
+  "A": "Poland",
+  "B": "Germany",
+  "C": "Latvia",
+  "D": "Finland",
+  "correct": "A",
+  "difficulty": 6
+ },
+ {
+  "text": "Which animals race at the Kentucky Derby?",
+  "A": "Horses",
+  "B": "Greyhounds",
+  "C": "Ostriches",
+  "D": "Cheetahs",
+  "correct": "A",
+  "difficulty": 1
+ },
+ {
+  "text": "What is the name for anger experienced while driving a car?",
+  "A": "Travel tantrum",
+  "B": "Drive discomfort",
+  "C": "Road rage",
+  "D": "Highway hostility",
+  "correct": "C",
+  "difficulty": 2
+ },
+ {
+  "text": "Which of these products is a depilatory?",
+  "A": "Nair",
+  "B": "Dove",
+  "C": "Neutrogena",
+  "D": "Aveeno",
+  "correct": "A",
+  "difficulty": 3
+ },
+ {
+  "text": "Which of these songs was NOT recorded by the Beach Boys?",
+  "A": "Good Vibrations",
+  "B": "Surf City",
+  "C": "Surfin' USA",
+  "D": "I Get Around",
+  "correct": "B",
+  "difficulty": 4
+ },
+ {
+  "text": "Auguste Rodin's statue The Thinker is meant to represent what real-life person?",
+  "A": "Dante Alighieri",
+  "B": "Leonardo da Vinci",
+  "C": "Aristotle",
+  "D": "Julius Caesar",
+  "correct": "A",
+  "difficulty": 5
+ },
+ {
+  "text": "Which of these is an alveolar disorder?",
+  "A": "Pneumonia",
+  "B": "Hypertension",
+  "C": "Arthritis",
+  "D": "Diabetes",
+  "correct": "A",
+  "difficulty": 6
+ },
+ {
+  "text": "Which of these two-letter combos is an acceptable word in Scrabble?",
+  "A": "Dr",
+  "B": "Ra",
+  "C": "Da",
+  "D": "Zy",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "Which of these Adam Sandler movies has a female director?",
+  "A": "Billy Madison",
+  "B": "Happy Gilmore",
+  "C": "The Waterboy",
+  "D": "Big Daddy",
+  "correct": "A",
+  "difficulty": 8
+ },
+ {
+  "text": "Which position was first held in the last year of the previous century?",
+  "A": "Prime Minister of Canada",
+  "B": "Mayor of London",
+  "C": "Governor of New York",
+  "D": "Chancellor of Germany",
+  "correct": "B",
+  "difficulty": 9
+ },
+ {
+  "text": "Which author's Pulitzer Prize-winning novel was adapted into a Broadway musical?",
+  "A": "J.D. Salinger",
+  "B": "Ernest Hemingway",
+  "C": "Alice Walker",
+  "D": "John Steinbeck",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "The first edition of the CNN show Crossfire featured which host?",
+  "A": "Larry King",
+  "B": "Pat Buchanan",
+  "C": "Anderson Cooper",
+  "D": "Wolf Blitzer",
+  "correct": "B",
+  "difficulty": 11
+ },
+ {
+  "text": "According to the Book of Leviticus, which of these animals is kosher to eat?",
+  "A": "Pig",
+  "B": "Cricket",
+  "C": "Rabbit",
+  "D": "Camel",
+  "correct": "B",
+  "difficulty": 12
+ },
+ {
+  "text": "Bart's age on “The Simpsons” is NOT the same as which of these characters?",
+  "A": "Harry Potter",
+  "B": "Pippi Longstocking",
+  "C": "Nancy Drew",
+  "D": "Tom Sawyer",
+  "correct": "C",
+  "difficulty": 13
+ },
+ {
+  "text": "What beauty product entrepreneur became the first U.S. self-made female millionaire?",
+  "A": "Mary Kay Ash",
+  "B": "Estée Lauder",
+  "C": "Madam C.J. Walker",
+  "D": "Elizabeth Arden",
+  "correct": "C",
+  "difficulty": 14
+ },
+ {
+  "text": "The author who created Tarzan once worked for which of these publications?",
+  "A": "New York Times",
+  "B": "Harper's Bazaar",
+  "C": "Sears catalog",
+  "D": "National Geographic",
+  "correct": "C",
+  "difficulty": 15
+ },
+ {
+  "text": "What is the mid-day meal usually called?",
+  "A": "Breakfast",
+  "B": "Lunch",
+  "C": "Dinner",
+  "D": "Supper",
+  "correct": "B",
+  "difficulty": 1
+ },
+ {
+  "text": "In what part of a newspaper would you post an item for sale?",
+  "A": "Obituaries",
+  "B": "Sports",
+  "C": "Classifieds",
+  "D": "Editorials",
+  "correct": "C",
+  "difficulty": 2
+ },
+ {
+  "text": "The “skyhook” is a move in which of these sports?",
+  "A": "Volleyball",
+  "B": "Baseball",
+  "C": "Basketball",
+  "D": "Soccer",
+  "correct": "C",
+  "difficulty": 3
+ },
+ {
+  "text": "What U.S. state borders only one other U.S. state?",
+  "A": "Florida",
+  "B": "Maine",
+  "C": "Rhode Island",
+  "D": "Alaska",
+  "correct": "B",
+  "difficulty": 4
+ },
+ {
+  "text": "The author of “The Picture of Dorian Gray” was born in what country?",
+  "A": "England",
+  "B": "Ireland",
+  "C": "Scotland",
+  "D": "France",
+  "correct": "B",
+  "difficulty": 5
+ },
+ {
+  "text": "What is the name of London's electronic public transit pass?",
+  "A": "SwiftCard",
+  "B": "Oyster",
+  "C": "TravelCard",
+  "D": "GoCard",
+  "correct": "B",
+  "difficulty": 6
+ },
+ {
+  "text": "According to Marie Kondo, you should only own material items with what quality?",
+  "A": "Has a purpose",
+  "B": "Looks good",
+  "C": "Spark joy",
+  "D": "Is expensive",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "Which of these North American deserts is the smallest?",
+  "A": "Sonoran Desert",
+  "B": "Mojave Desert",
+  "C": "Great Basin Desert",
+  "D": "Chihuahuan Desert",
+  "correct": "B",
+  "difficulty": 8
+ },
+ {
+  "text": "Which Secretary-General of the United Nations once appeared on “Da Ali G Show”?",
+  "A": "Kofi Annan",
+  "B": "Ban Ki-moon",
+  "C": "Boutros Boutros-Ghali",
+  "D": "Javier Pérez de Cuéllar",
+  "correct": "C",
+  "difficulty": 9
+ },
+ {
+  "text": "One thousand years ago, which of these regions was heavily populated with Moorish people?",
+  "A": "Scandinavia",
+  "B": "Britannia",
+  "C": "Iberia",
+  "D": "Siberia",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "The first official African-American fraternity was founded at what university?",
+  "A": "Harvard",
+  "B": "Yale",
+  "C": "Cornell",
+  "D": "Princeton",
+  "correct": "C",
+  "difficulty": 11
+ },
+ {
+  "text": "Which of these things did Skee-Lo NOT wish for in his hit '90s song?",
+  "A": "A girl who looked good",
+  "B": "White shirt collar",
+  "C": "A rabbit in a hat",
+  "D": "A six-four Impala",
+  "correct": "B",
+  "difficulty": 12
+ },
+ {
+  "text": "Who famously painted the ceiling of the Sistine Chapel?",
+  "A": "Michelangelo",
+  "B": "Leonardo da Vinci",
+  "C": "Raphael",
+  "D": "Caravaggio",
+  "correct": "A",
+  "difficulty": 1
+ },
+ {
+  "text": "Which U.S. coin features a portrait of Abraham Lincoln?",
+  "A": "Quarter",
+  "B": "Nickel",
+  "C": "Penny",
+  "D": "Dime",
+  "correct": "C",
+  "difficulty": 2
+ },
+ {
+  "text": "Which of these is NOT a unit of temperature?",
+  "A": "Fahrenheit",
+  "B": "Kelvin",
+  "C": "Hectare",
+  "D": "Celsius",
+  "correct": "C",
+  "difficulty": 3
+ },
+ {
+  "text": "The R.E.M. song “Man on the Moon” was written about what comedian?",
+  "A": "Jim Carrey",
+  "B": "Jerry Seinfeld",
+  "C": "Andy Kaufman",
+  "D": "Robin Williams",
+  "correct": "C",
+  "difficulty": 4
+ },
+ {
+  "text": "What disease gets its name from the Italian term for “bad air”?",
+  "A": "Influenza",
+  "B": "Malaria",
+  "C": "Bronchitis",
+  "D": "Tuberculosis",
+  "correct": "B",
+  "difficulty": 5
+ },
+ {
+  "text": "Students of Auguste Escoffier would have known how to do what?",
+  "A": "Play the violin",
+  "B": "Write a sonnet",
+  "C": "Prepare a velouté",
+  "D": "Paint a landscape",
+  "correct": "C",
+  "difficulty": 6
+ },
+ {
+  "text": "A 1976 book by Richard Dawkins introduced what now-common word?",
+  "A": "Cyberspace",
+  "B": "Infomercial",
+  "C": "Meme",
+  "D": "Selfie",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "Which voice actor from “The Emperor’s New Groove” was once blacklisted in Hollywood?",
+  "A": "Eartha Kitt",
+  "B": "Patrick Warburton",
+  "C": "John Goodman",
+  "D": "David Spade",
+  "correct": "A",
+  "difficulty": 8
+ },
+ {
+  "text": "Which of these is NOT a menu option for ordering hash browns at Waffle House?",
+  "A": "Smothered",
+  "B": "Slathered",
+  "C": "Covered",
+  "D": "Chunked",
+  "correct": "B",
+  "difficulty": 9
+ },
+ {
+  "text": "What math concept is traditionally notated by a tall, S-shaped curve?",
+  "A": "Derivative",
+  "B": "Standard Deviation",
+  "C": "Integral",
+  "D": "Sigmoid Function",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "Which of these supposedly hip cities does NOT have an Instagram filter named after it?",
+  "A": "New York",
+  "B": "Austin",
+  "C": "Los Angeles",
+  "D": "Tokyo",
+  "correct": "B",
+  "difficulty": 11
+ }
+]

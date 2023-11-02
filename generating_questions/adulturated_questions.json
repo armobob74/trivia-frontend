@@ -1,0 +1,30 @@
+[
+ {
+  "question": {
+   "text": "Which \u201990s movie is an anagram of the original book title which the film is based on?",
+   "A": "Jurassic Park",
+   "B": "October Sky",
+   "C": "Silence of the Lambs",
+   "D": "The Shawshank Redemption",
+   "correct": "B",
+   "difficulty": 11
+  },
+  "adulturations": [
+   "text"
+  ]
+ },
+ {
+  "question": {
+   "text": "Which \u201990s movie is an anagram of the original book title which the film is based on?",
+   "A": "Sky Rocket",
+   "B": "October Sky",
+   "C": "Rocket Boys",
+   "D": "Bryce Look",
+   "correct": "B",
+   "difficulty": 11
+  },
+  "adulturations": [
+   "text"
+  ]
+ }
+]

@@ -1,0 +1,155 @@
+I am working on a database of trivia questions. I have a large number of question/answer pairs, but I need to generate alternative answers as well. I want the questions to look like this when done:
+[
+ {
+  "text": "What word completes the phrase: \u201cEverything but the kitchen\u201d?",
+  "A": "Sink",
+  "B": "Door",
+  "C": "Countertop",
+  "D": "Remodel",
+  "correct": "A",
+  "difficulty": 2
+ },
+ {
+  "text": "What popular corn chip loosely translates to \u201clittle golden things\u201d in Spanish?",
+  "A": "Fritos",
+  "B": "Takis",
+  "C": "Doritos",
+  "D": "Tostitos",
+  "correct": "C",
+  "difficulty": 4
+ },
+ {
+  "text": "In the 1800s, a chemistry student making synthetic quinine accidentally created what color of dye?",
+  "A": "Mauve",
+  "B": "Fuchsia",
+  "C": "Forest Green",
+  "D": "Turquoise",
+  "correct": "A",
+  "difficulty": 11
+ }
+]
+
+Here are my unfinished questions:
+[
+ {
+  "text": "What U.S. state borders only one other U.S. state?",
+  "B": "Maine",
+  "correct": "B",
+  "difficulty": 4
+ },
+ {
+  "text": "The author of \u201cThe Picture of Dorian Gray\u201d was born in what country?",
+  "B": "Ireland",
+  "correct": "B",
+  "difficulty": 5
+ },
+ {
+  "text": "What is the name of London's electronic public transit pass?",
+  "B": "Oyster",
+  "correct": "B",
+  "difficulty": 6
+ },
+ {
+  "text": "According to Marie Kondo, you should only own material items with what quality?",
+  "C": "Spark joy",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "Which of these North American deserts is the smallest?",
+  "B": "Mojave Desert",
+  "correct": "B",
+  "difficulty": 8
+ },
+ {
+  "text": "Which Secretary-General of the United Nations once appeared on \u201cDa Ali G Show\u201d?",
+  "C": "Boutros Boutros-Ghali",
+  "correct": "C",
+  "difficulty": 9
+ },
+ {
+  "text": "One thousand years ago, which of these regions was heavily populated with Moorish people?",
+  "C": "Iberia",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "The first official African-American fraternity was founded at what university?",
+  "C": "Cornell",
+  "correct": "C",
+  "difficulty": 11
+ },
+ {
+  "text": "Which of these things did Skee-Lo NOT wish for in his hit '90s song?",
+  "B": "White shirt collar",
+  "correct": "B",
+  "difficulty": 12
+ },
+ {
+  "text": "Who famously painted the ceiling of the Sistine Chapel?",
+  "A": "Michelangelo",
+  "correct": "A",
+  "difficulty": 1
+ },
+ {
+  "text": "Which U.S. coin features a portrait of Abraham Lincoln?",
+  "C": "Penny",
+  "correct": "C",
+  "difficulty": 2
+ },
+ {
+  "text": "Which of these is NOT a unit of temperature?",
+  "C": "Hectare",
+  "correct": "C",
+  "difficulty": 3
+ },
+ {
+  "text": "The R.E.M. song \u201cMan on the Moon\u201d was written about what comedian?",
+  "C": "Andy Kaufman",
+  "correct": "C",
+  "difficulty": 4
+ },
+ {
+  "text": "What disease gets its name from the Italian term for \u201cbad air\u201d?",
+  "B": "Malaria",
+  "correct": "B",
+  "difficulty": 5
+ },
+ {
+  "text": "Students of Auguste Escoffier would have known how to do what?",
+  "C": "Prepare a velout\u00e9",
+  "correct": "C",
+  "difficulty": 6
+ },
+ {
+  "text": "A 1976 book by Richard Dawkins introduced what now-common word?",
+  "C": "Meme",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "Which voice actor from \u201cThe Emperor\u2019s New Groove\u201d was once blacklisted in Hollywood?",
+  "A": "Eartha Kitt",
+  "correct": "A",
+  "difficulty": 8
+ },
+ {
+  "text": "Which of these is NOT a menu option for ordering hash browns at Waffle House?",
+  "B": "Slathered",
+  "correct": "B",
+  "difficulty": 9
+ },
+ {
+  "text": "What math concept is traditionally notated by a tall, S-shaped curve?",
+  "C": "Integral",
+  "correct": "C",
+  "difficulty": 10
+ },
+ {
+  "text": "Which of these supposedly hip cities does NOT have an Instagram filter named after it?",
+  "B": "Austin",
+  "correct": "B",
+  "difficulty": 11
+ }
+]
+Please fill out the alternate answers for each unfinished question, changing NOTHING ELSE.
