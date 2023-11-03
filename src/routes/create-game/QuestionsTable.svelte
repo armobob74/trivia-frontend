@@ -1,10 +1,10 @@
 <script lang="ts">
-	import SelectBox from './SelectBox.svelte';
-	export let selected_questions: Array<string> = [];
+	import SelectRow from './SelectRow.svelte';
+	export let selected_questions: Array<object> = [];
 	export let questionsPromise = new Promise(() => {});
 </script>
 
-<table class="table">
+<table class="table table-auto table-hover">
 	<thead>
 		<tr>
 			<th>Question</th>
@@ -17,11 +17,7 @@
 			waiting...
 		{:then questions}
 			{#each questions as question, idx (question['text'])}
-				<tr>
-					<td>{question['text']}</td>
-					<td>{question[question['correct']]}</td>
-					<td>{question['difficulty']}</td>
-				</tr>
+				<SelectRow bind:selected_questions {question} />
 			{/each}
 		{:catch error}
 			<p class="text-red-600">There has been a problem loading questions</p>

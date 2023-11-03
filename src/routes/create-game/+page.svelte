@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QuestionsTable from './QuestionsTable.svelte';
-	let selected_questions: Array<string> = [];
+	let selected_questions: Array<object> = [];
 	let questionsPromise = new Promise(() => {});
 	onMount(async () => {
 		try {
@@ -19,8 +19,8 @@
 <h1 class="h1 text-center m-5">Create Game</h1>
 <div class="everything-holder p-4">
 	<h3 class="h3">Step 1: Choose your questions</h3>
-	<div class="table-holder rounded">
-		<QuestionsTable {questionsPromise} />
+	<div class="table-container table-holder">
+		<QuestionsTable {questionsPromise} bind:selected_questions />
 	</div>
 	<h3 class="h3">Review: {selected_questions.length} selected questions</h3>
 </div>
