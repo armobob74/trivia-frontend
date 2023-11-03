@@ -1,7 +1,8 @@
 <script lang="ts">
 	import SelectRow from './SelectRow.svelte';
-	export let selected_questions: Array<object> = [];
-	export let questionsPromise = new Promise(() => {});
+	import type { Question } from '$lib';
+	export let selected_questions: Array<Question> = [];
+	export let questions: Array<Question>;
 </script>
 
 <table class="table table-auto table-hover">
@@ -13,15 +14,9 @@
 		</tr>
 	</thead>
 	<tbody>
-		{#await questionsPromise}
-			waiting...
-		{:then questions}
-			{#each questions as question, idx (question['text'])}
-				<SelectRow bind:selected_questions {question} />
-			{/each}
-		{:catch error}
-			<p class="text-red-600">There has been a problem loading questions</p>
-		{/await}
+		{#each questions as question, idx (question['text'])}
+			<SelectRow bind:selected_questions {idx} {question} />
+		{/each}
 	</tbody>
 </table>
 
