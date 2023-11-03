@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { ListBox, ListBoxItem } from '@skeletonlabs/skeleton';
 	import { onMount } from 'svelte';
 	import type { Question } from '$lib/index';
 	import Option from './Option.svelte';
@@ -17,10 +16,10 @@
 		Q: 'What do you think of this question text?',
 		correct_option: 'D',
 		options: {
-			A: 'Option A',
-			B: 'Option B',
-			C: 'Option C',
-			D: 'Option D'
+			A: "It's quite nice",
+			B: "I've seen better",
+			C: 'Another answer here',
+			D: 'I am not sure what to say'
 		}
 	};
 	let selected_answer: string = '';
