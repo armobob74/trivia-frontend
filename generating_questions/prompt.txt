@@ -1,155 +1,132 @@
-I am working on a database of trivia questions. I have a large number of question/answer pairs, but I need to generate alternative answers as well. I want the questions to look like this when done:
-[
- {
-  "text": "What word completes the phrase: \u201cEverything but the kitchen\u201d?",
-  "A": "Sink",
-  "B": "Door",
-  "C": "Countertop",
-  "D": "Remodel",
-  "correct": "A",
-  "difficulty": 2
- },
- {
-  "text": "What popular corn chip loosely translates to \u201clittle golden things\u201d in Spanish?",
-  "A": "Fritos",
-  "B": "Takis",
-  "C": "Doritos",
-  "D": "Tostitos",
-  "correct": "C",
-  "difficulty": 4
- },
- {
-  "text": "In the 1800s, a chemistry student making synthetic quinine accidentally created what color of dye?",
-  "A": "Mauve",
-  "B": "Fuchsia",
-  "C": "Forest Green",
-  "D": "Turquoise",
-  "correct": "A",
-  "difficulty": 11
- }
-]
+I am working on a database of trivia questions. I have a large number of question/answer pairs, but I need you to add some information.
 
 Here are my unfinished questions:
 [
  {
-  "text": "What U.S. state borders only one other U.S. state?",
-  "B": "Maine",
-  "correct": "B",
-  "difficulty": 4
- },
- {
-  "text": "The author of \u201cThe Picture of Dorian Gray\u201d was born in what country?",
-  "B": "Ireland",
-  "correct": "B",
-  "difficulty": 5
- },
- {
-  "text": "What is the name of London's electronic public transit pass?",
-  "B": "Oyster",
-  "correct": "B",
-  "difficulty": 6
- },
- {
-  "text": "According to Marie Kondo, you should only own material items with what quality?",
-  "C": "Spark joy",
-  "correct": "C",
-  "difficulty": 7
- },
- {
-  "text": "Which of these North American deserts is the smallest?",
-  "B": "Mojave Desert",
-  "correct": "B",
-  "difficulty": 8
- },
- {
-  "text": "Which Secretary-General of the United Nations once appeared on \u201cDa Ali G Show\u201d?",
-  "C": "Boutros Boutros-Ghali",
-  "correct": "C",
-  "difficulty": 9
- },
- {
-  "text": "One thousand years ago, which of these regions was heavily populated with Moorish people?",
-  "C": "Iberia",
-  "correct": "C",
-  "difficulty": 10
- },
- {
-  "text": "The first official African-American fraternity was founded at what university?",
-  "C": "Cornell",
-  "correct": "C",
-  "difficulty": 11
- },
- {
-  "text": "Which of these things did Skee-Lo NOT wish for in his hit '90s song?",
-  "B": "White shirt collar",
+  "text": "The inventor of the board game Risk also directed what award-winning film?",
+  "B": "The Red Balloon",
   "correct": "B",
   "difficulty": 12
  },
  {
-  "text": "Who famously painted the ceiling of the Sistine Chapel?",
-  "A": "Michelangelo",
-  "correct": "A",
+  "text": "According to legend, what vessel is most likely to contain a wish-granting genie?",
+  "B": "Magic lamp",
+  "correct": "B",
   "difficulty": 1
  },
  {
-  "text": "Which U.S. coin features a portrait of Abraham Lincoln?",
-  "C": "Penny",
+  "text": "Which of these destinations is legally allowed to bill itself as \u201cThe Happiest Place on Earth\u201d?",
+  "C": "Disneyland",
   "correct": "C",
   "difficulty": 2
  },
  {
-  "text": "Which of these is NOT a unit of temperature?",
-  "C": "Hectare",
-  "correct": "C",
+  "text": "At New Orleans Mardi Gras, what are float riders required to wear by law?",
+  "B": "Masks",
+  "correct": "B",
   "difficulty": 3
  },
  {
-  "text": "The R.E.M. song \u201cMan on the Moon\u201d was written about what comedian?",
-  "C": "Andy Kaufman",
-  "correct": "C",
+  "text": "Which of these is NOT part of the three-word Olympic motto?",
+  "A": "Thicker",
+  "correct": "A",
   "difficulty": 4
  },
  {
-  "text": "What disease gets its name from the Italian term for \u201cbad air\u201d?",
-  "B": "Malaria",
+  "text": "Cirque du Soleil is a theater troupe first formed in which country?",
+  "B": "Canada",
   "correct": "B",
   "difficulty": 5
  },
  {
-  "text": "Students of Auguste Escoffier would have known how to do what?",
-  "C": "Prepare a velout\u00e9",
+  "text": "Which of these films does NOT prominently feature identical twins?",
+  "C": "Twins",
   "correct": "C",
   "difficulty": 6
  },
  {
-  "text": "A 1976 book by Richard Dawkins introduced what now-common word?",
-  "C": "Meme",
-  "correct": "C",
+  "text": "The painting \u201cWashington Crosses the Delaware\u201d has appeared on which state quarter?",
+  "A": "New Jersey",
+  "correct": "A",
   "difficulty": 7
  },
  {
-  "text": "Which voice actor from \u201cThe Emperor\u2019s New Groove\u201d was once blacklisted in Hollywood?",
-  "A": "Eartha Kitt",
+  "text": "The 2008 Olympics were the first time the medals contained what material?",
+  "A": "Jade",
   "correct": "A",
   "difficulty": 8
  },
  {
-  "text": "Which of these is NOT a menu option for ordering hash browns at Waffle House?",
-  "B": "Slathered",
+  "text": "When written in all caps, which insult refers to a common type of computer user interface?",
+  "B": "Wimp",
   "correct": "B",
   "difficulty": 9
  },
  {
-  "text": "What math concept is traditionally notated by a tall, S-shaped curve?",
-  "C": "Integral",
-  "correct": "C",
+  "text": "What writer was the first to receive a MacArthur \u201cgenius\u201d grant for science fiction?",
+  "A": "Octavia E. Butler",
+  "correct": "A",
   "difficulty": 10
  },
  {
-  "text": "Which of these supposedly hip cities does NOT have an Instagram filter named after it?",
-  "B": "Austin",
+  "text": "The \u201cFather of Art Deco\u201d designed over 200 covers for which magazine?",
+  "B": "Harper\u2019s Bazaar",
   "correct": "B",
   "difficulty": 11
+ },
+ {
+  "text": "Who is Robert Downey, Jr.\u2019s father?",
+  "A": "Robert Downey, Sr.",
+  "correct": "A",
+  "difficulty": 1
+ },
+ {
+  "text": "In July of 2017, Joey Chestnut set a world record by consuming 72 what?",
+  "B": "Hot dogs",
+  "correct": "B",
+  "difficulty": 2
+ },
+ {
+  "text": "Who just became the youngest woman to win gold in Olympics snowboarding?",
+  "C": "Chloe Kim",
+  "correct": "C",
+  "difficulty": 3
+ },
+ {
+  "text": "In Ancient Greece, Olympic athletes typically competed wearing what?",
+  "C": "Nothing at all",
+  "correct": "C",
+  "difficulty": 4
+ },
+ {
+  "text": "What pop star first recorded under the same name as the so-called \"sailor's devil\"?",
+  "B": "David Bowie",
+  "correct": "B",
+  "difficulty": 5
+ },
+ {
+  "text": "In the King James Bible, which of these measures \u201csix cubits and a span\u201d?",
+  "C": "Goliath",
+  "correct": "C",
+  "difficulty": 6
+ },
+ {
+  "text": "Which of these is NOT a palindrome?",
+  "C": "Walk sir, I\u2019ll risk law",
+  "correct": "C",
+  "difficulty": 7
+ },
+ {
+  "text": "Aaron Sorkin & Quentin Tarantino helped write the screenplay to which movie?",
+  "A": "The Rock",
+  "correct": "A",
+  "difficulty": 8
  }
 ]
-Please fill out the alternate answers for each unfinished question, changing NOTHING ELSE.
+
+They are meant to be multiple choice, with answers A-D. Please add in the missing answers, and then add a categories field with a list of appropriate categories for the question.
+
+Here is the list of categories:
+['U.S. Presidents & Politics', 'Pop Culture & Entertainment', 'Science & Technology', 'Geography & World Affairs', 'Art & Literature', 'Sports & Recreation', 'History', 'Food & Drink', 'Music', 'Animals & Nature', 'Business & Brands', 'Religion & Mythology', 'Language & Linguistics', 'Fashion & Design', 'Health & Medicine']
+
+Change NOTHING ELSE.
