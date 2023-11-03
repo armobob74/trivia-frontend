@@ -68,13 +68,13 @@
 						<td>{question['text']}</td>
 						<td>{question[question['correct']]}</td>
 						<td>{question['difficulty']}</td>
-						<td><DeselectButton bind:selected_questions /></td>
+						<td><DeselectButton {idx} bind:selected_questions /></td>
 					</tr>
 				{/each}
 			</tbody>
 		</table>
 	</div>
-	<div class="flex items-center justify-center flex-col">
+	<div class="flex items-center justify-center flex-col my-5">
 		<button on:click={generateGameId} class="btn variant-filled-primary">Create Game</button>
 		<h1>{game_id}</h1>
 	</div>
