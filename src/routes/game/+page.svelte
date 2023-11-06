@@ -2,6 +2,11 @@
 	import { onMount } from 'svelte';
 	import type { Question } from '$lib/index';
 	import Option from './Option.svelte';
+	import io from 'socket.io-client';
+	import { BACKEND_URL } from '$lib/index';
+
+	let socket: any;
+	let socket_connected = false;
 
 	let game_id: string = '';
 	onMount(() => {
@@ -10,20 +15,36 @@
 		} else {
 			game_id = localStorage.getItem('game_id') || '';
 		}
+
+		socket = io(BACKEND_URL);
+		socket.on('connect', () => {
+			console.log('connected');
+			socket_connected = true;
+			socket.emit('join-game', { 'game-id': game_id });
+		});
+		socket.on('join-game', (msg: any) => {
+			console.log(msg['text']);
+		});
+		socket.on('disconnect', () => {
+			console.log('disconnected');
+			socket_connected = false;
+		});
+		// Cleanup on component unmount
+		return () => {
+			if (socket) socket.disconnect();
+		};
 	});
 	let question: Question = {
-		id: 0,
-		Q: 'What do you think of this question text?',
-		correct_option: 'D',
-		options: {
-			A: "It's quite nice",
-			B: "I've seen better",
-			C: 'Another answer here',
-			D: 'I am not sure what to say'
-		}
+		text: 'What do you think of this question text?',
+		correct: 'D',
+		A: "It's quite nice",
+		B: "I've seen better",
+		C: 'Another answer here',
+		D: 'I am not sure what to say',
+		difficulty: 1
 	};
 	let selected_answer: string = '';
-	let option_keys: Array<string> = Object.keys(question.options);
+	let option_keys: Array<string> = ['A', 'B', 'C', 'D'];
 	let submitted: boolean = false;
 	function handleSubmit() {
 		if (selected_answer) {
@@ -42,10 +63,10 @@
 			on:submit={handleSubmit}
 			method="get"
 		>
-			<h1 class="h3 text-center">{question.Q}</h1>
+			<h1 class="h3 text-center">{question.text}</h1>
 			<div class="w-full h-4/6 lg:h-full flex flex-col justify-evenly">
 				{#each option_keys as key}
-					<Option disabled={submitted} {key} bind:selected_answer>{question.options[key]}</Option>
+					<Option disabled={submitted} {key} bind:selected_answer>{question[key]}</Option>
 				{/each}
 			</div>
 			<button disabled={submitted} type="submit" class="btn variant-filled">

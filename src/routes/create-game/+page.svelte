@@ -19,7 +19,10 @@
 			}
 		} catch (error) {}
 	});
+
 	function generateGameId() {
+		// should probably switch this to a server side function
+		// so that there's no risk of duplicate IDs
 		let n = 4;
 		if (!game_id) {
 			let choices = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
