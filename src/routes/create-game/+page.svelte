@@ -7,7 +7,6 @@
 	let selected_questions: Array<Question> = [];
 	let questionsPromise: Array<Question> | Promise<unknown> = new Promise(() => {});
 	let questions: Array<Question>;
-	let game_id: string = '';
 	onMount(async () => {
 		try {
 			const response = await fetch('/questions.json');
@@ -24,6 +23,7 @@
 		// should probably switch this to a server side function
 		// so that there's no risk of duplicate IDs
 		let n = 4;
+		let game_id;
 		if (!game_id) {
 			let choices = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			let idx: number;
@@ -37,6 +37,16 @@
 		} else {
 			console.log('game id exists');
 		}
+		return game_id;
+	}
+
+	function createGame() {
+		// handle the actual creation of the game
+		// then redirect user to /manage-game
+		let game_id = generateGameId();
+		localStorage.setItem('game_id', game_id);
+		localStorage.setItem('selected_questions', JSON.stringify(selected_questions));
+		window.location.href = '/manage-game';
 	}
 </script>
 
@@ -78,8 +88,7 @@
 		</table>
 	</div>
 	<div class="flex items-center justify-center flex-col my-5">
-		<button on:click={generateGameId} class="btn variant-filled-primary">Create Game</button>
-		<h1>{game_id}</h1>
+		<button on:click={createGame} class="btn variant-filled-primary">Create Game</button>
 	</div>
 </div>
 

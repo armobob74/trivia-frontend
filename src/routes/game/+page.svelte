@@ -15,7 +15,6 @@
 		} else {
 			game_id = localStorage.getItem('game_id') || '';
 		}
-
 		socket = io(BACKEND_URL);
 		socket.on('connect', () => {
 			console.log('connected');
