@@ -9,17 +9,24 @@
 	let socket_connected = false;
 
 	let game_id: string = '';
+	let username: string = '';
 	onMount(() => {
 		if (!localStorage.getItem('game_id')) {
 			location.href = '/';
 		} else {
 			game_id = localStorage.getItem('game_id') || '';
 		}
+
+		if (!localStorage.getItem('username')) {
+			location.href = '/new-user';
+		} else {
+			username = localStorage.getItem('username') || '';
+		}
 		socket = io(BACKEND_URL);
 		socket.on('connect', () => {
 			console.log('connected');
 			socket_connected = true;
-			socket.emit('join-game', { 'game-id': game_id });
+			socket.emit('join-game', { 'game-id': game_id, username: username });
 		});
 		socket.on('join-game', (msg: any) => {
 			console.log(msg['text']);
