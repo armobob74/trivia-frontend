@@ -1,10 +1,20 @@
 <script lang="ts">
-	// this page only creates username for localstorage of browser.
-	// managerment console and backend are not updated until user goes back to /game window
+	// this page creates username for localstorage of browser.
+	// it then notifies the backend of the change
 	import { onMount } from 'svelte';
+	import io from 'socket.io-client';
+	import { BACKEND_URL } from '$lib/index';
+
+	let socket = io(BACKEND_URL);
 
 	let game_id: string = '';
 	let username: string = '';
+
+	const min_username_len = 3;
+	function isValidUsername(s: string) {
+		return s.length >= min_username_len;
+	}
+	let displayUsernameRequirements = false;
 	onMount(() => {
 		if (!localStorage.getItem('game_id')) {
 			location.href = '/';
@@ -12,20 +22,22 @@
 			game_id = localStorage.getItem('game_id') || '';
 		}
 	});
-
-	const min_username_len = 3;
-	function isValidUsername(s: string) {
-		return s.length >= min_username_len;
-	}
-	let displayUsernameRequirements = false;
 	function backToGame() {
 		if (isValidUsername(username)) {
 			localStorage.setItem('username', username);
-			location.href = '/game';
+			socket.emit('create-player', {
+				username: username,
+				game_id: game_id
+			});
 		} else {
 			displayUsernameRequirements = true;
 		}
 	}
+
+	socket.on('create-player-response', (msg) => {
+		console.log(msg['text']);
+		location.href = '/game';
+	});
 </script>
 
 <h2 class="h2">Please create a username</h2>
