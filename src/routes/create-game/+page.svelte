@@ -3,7 +3,10 @@
 	import { onMount } from 'svelte';
 	import QuestionsTable from './QuestionsTable.svelte';
 	import DeselectButton from './DeselectButton.svelte';
+	import io from 'socket.io-client';
+	import { BACKEND_URL } from '$lib/index';
 
+	let socket = io(BACKEND_URL);
 	let selected_questions: Array<Question> = [];
 	let questionsPromise: Array<Question> | Promise<unknown> = new Promise(() => {});
 	let questions: Array<Question>;
@@ -40,14 +43,27 @@
 		return game_id;
 	}
 
-	function createGame() {
-		// handle the actual creation of the game
-		// then redirect user to /manage-game
-		let game_id = generateGameId();
+	let manager_id: Number;
+
+	let game_id: string = '';
+	function createManager() {
+		// create manager before creating game
+		game_id = generateGameId();
 		localStorage.setItem('game_id', game_id);
 		localStorage.setItem('selected_questions', JSON.stringify(selected_questions));
-		window.location.href = '/manage-game';
+		socket.emit('create-manager'); // now wait for create-manager-response
 	}
+	socket.on('create-manager-response', (msg) => {
+		manager_id = msg['manager-id'];
+		console.log(`created manager with id ${manager_id}`);
+		socket.emit('create-game', {
+			'game-id': game_id,
+			'manager-id': manager_id
+		});
+	});
+	socket.on('create-game-response', () => {
+		window.location.href = '/manage-game';
+	});
 </script>
 
 <h1 class="h1 text-center m-5">Create Game</h1>
@@ -88,7 +104,7 @@
 		</table>
 	</div>
 	<div class="flex items-center justify-center flex-col my-5">
-		<button on:click={createGame} class="btn variant-filled-primary">Create Game</button>
+		<button on:click={createManager} class="btn variant-filled-primary">Create Game</button>
 	</div>
 </div>
 
