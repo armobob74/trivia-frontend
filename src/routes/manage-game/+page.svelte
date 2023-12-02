@@ -2,7 +2,10 @@
 	import type { Question } from '$lib';
 	import { onMount } from 'svelte';
 	import ManagerConsole from './ManagerConsole.svelte';
+	import io from 'socket.io-client';
+	import { BACKEND_URL } from '$lib/index';
 
+	let socket = io(BACKEND_URL);
 	let error_message: string = '';
 	let game_id: string | null = '';
 	let selected_questions: Array<Question> | null = [];
@@ -18,6 +21,15 @@
 		} else if (!selected_questions_str) {
 			error_message = 'No selected questions found';
 		}
+		socket.emit('manage-game', { 'game-id': game_id });
+	});
+
+	socket.on('manage-game-response', (msg) => {
+		console.log(msg['text']);
+	});
+
+	socket.on('join-game', (msg) => {
+		console.log(msg);
 	});
 </script>
 

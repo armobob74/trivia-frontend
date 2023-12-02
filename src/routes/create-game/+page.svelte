@@ -51,7 +51,7 @@
 		game_id = generateGameId();
 		localStorage.setItem('game_id', game_id);
 		localStorage.setItem('selected_questions', JSON.stringify(selected_questions));
-		socket.emit('create-manager'); // now wait for create-manager-response
+		socket.emit('create-manager', { 'game-id': game_id }); // now wait for create-manager-response
 	}
 	socket.on('create-manager-response', (msg) => {
 		manager_id = msg['manager-id'];
