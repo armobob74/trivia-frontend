@@ -1,11 +1,24 @@
+<script lang="ts">
+	export let players: Array<any> = [];
+</script>
+
 <div id="frame" class="bg-slate-300 dark:bg-gray-800 p-8 grid grid-cols-4 grid-rows-8 gap-1">
-	<div class="col-span-1">Hi</div>
-	<div class="col-span-2 row-span-2">Hello</div>
-	<div class="col-span-1">Hi</div>
-	<div class="col-span-1">Hi</div>
-	<div class="col-span-1">Hi</div>
-	<div class="col-span-1">Hi</div>
-	<div class="col-span-1">Hi</div>
+	<div class="col-span-3 row-span-2">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Username</th>
+				</tr>
+			</thead>
+			<tbody>
+				{#each players as player}
+					<tr>
+						<td>{player.username}</td>
+					</tr>
+				{/each}
+			</tbody>
+		</table>
+	</div>
 </div>
 
 <style>

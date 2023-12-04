@@ -10,6 +10,7 @@
 	let game_id: string | null = '';
 	let selected_questions: Array<Question> | null = [];
 	let selected_questions_str: string | null = ''; // this variable exists to make typescript happy
+	let players: Array<any> = [];
 	onMount(() => {
 		game_id = localStorage.getItem('game_id');
 		selected_questions_str = localStorage.getItem('selected_questions');
@@ -26,8 +27,8 @@
 
 	socket.on('manage-game-response', (msg) => {
 		console.log(msg['text']);
-		let players = JSON.stringify(msg['players']);
-		localStorage.setItem('players', players);
+		players = msg['players'];
+		localStorage.setItem('players', JSON.stringify(players));
 	});
 
 	socket.on('join-game', (msg) => {
@@ -46,7 +47,7 @@
 	</aside>
 {:else}
 	<div id="console-container" class="">
-		<ManagerConsole />
+		<ManagerConsole {players} />
 	</div>
 {/if}
 
