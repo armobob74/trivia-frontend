@@ -8,12 +8,18 @@
 			<thead>
 				<tr>
 					<th>Username</th>
+					<th>Answer</th>
+					<th>Correct</th>
+					<th>Score</th>
 				</tr>
 			</thead>
 			<tbody>
 				{#each players as player}
 					<tr>
 						<td>{player.username}</td>
+						<td />
+						<td><input type="checkbox" class="checkbox" /></td>
+						<td />
 					</tr>
 				{/each}
 			</tbody>
