@@ -26,6 +26,8 @@
 
 	socket.on('manage-game-response', (msg) => {
 		console.log(msg['text']);
+		let players = JSON.stringify(msg['players']);
+		localStorage.setItem('players', players);
 	});
 
 	socket.on('join-game', (msg) => {
