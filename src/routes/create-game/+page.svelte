@@ -58,7 +58,8 @@
 		console.log(`created manager with id ${manager_id}`);
 		socket.emit('create-game', {
 			'game-id': game_id,
-			'manager-id': manager_id
+			'manager-id': manager_id,
+			questions: JSON.stringify(selected_questions)
 		});
 	});
 	socket.on('create-game-response', () => {

@@ -10,6 +10,7 @@
 
 	let game_id: string = '';
 	let username: string = '';
+	let player_id: string = '';
 	onMount(() => {
 		if (!localStorage.getItem('game_id')) {
 			location.href = '/';
@@ -21,32 +22,44 @@
 			location.href = '/new-user';
 		} else {
 			username = localStorage.getItem('username') || '';
+			player_id = localStorage.getItem('player_id') || '';
 		}
 		socket = io(BACKEND_URL);
 		socket.on('connect', () => {
 			console.log('connected');
 			socket_connected = true;
-			socket.emit('join-game', { 'game-id': game_id, username: username });
+			socket.emit('join-game', {
+				'game-id': game_id,
+				'player-id': player_id,
+				username: username
+			});
 		});
 		socket.on('join-game', (msg: any) => {
 			console.log(msg['text']);
+			question = msg['question'];
+		});
+		socket.on('next-question', (msg: any) => {
+			question = msg['question'];
+			submitted = false;
+			selected_answer = '';
 		});
 		socket.on('disconnect', () => {
 			console.log('disconnected');
 			socket_connected = false;
 		});
+
 		// Cleanup on component unmount
 		return () => {
 			if (socket) socket.disconnect();
 		};
 	});
 	let question: Question = {
-		text: 'What do you think of this question text?',
+		text: '',
 		correct: 'D',
-		A: "It's quite nice",
-		B: "I've seen better",
-		C: 'Another answer here',
-		D: 'I am not sure what to say',
+		A: '',
+		B: '',
+		C: '',
+		D: '',
 		difficulty: 1
 	};
 	let selected_answer: string = '';
@@ -54,7 +67,13 @@
 	let submitted: boolean = false;
 	function handleSubmit() {
 		if (selected_answer) {
+			let answer_text = question[selected_answer];
 			submitted = true;
+			socket.emit('submit-answer', {
+				username: username,
+				answer: answer_text,
+				'game-id': game_id
+			});
 		} else {
 		}
 	}

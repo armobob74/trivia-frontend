@@ -9,6 +9,7 @@
 
 	let game_id: string = '';
 	let username: string = '';
+	let player_id: string = '';
 
 	const min_username_len = 3;
 	function isValidUsername(s: string) {
@@ -35,8 +36,13 @@
 	}
 
 	socket.on('create-player-response', (msg) => {
-		console.log(msg['text']);
-		location.href = '/game';
+		if (msg.ok) {
+			console.log(msg['text']);
+			localStorage.setItem('player_id', msg['player-id']);
+			location.href = '/game';
+		} else {
+			alert(msg['text']); // duplicate username message
+		}
 	});
 </script>
 
